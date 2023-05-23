@@ -1,0 +1,123 @@
+body {
+  background-color: darkgrey;
+  background-image: url(./imagenes/Embracer-Group.jpg);
+  background-size: 100%;
+}
+
+div {
+  text-align: center;
+  font-family: titulo;
+  font-size: 50px;
+  color: gold;
+}
+
+#fondotitulo {
+  width: 100%;
+}
+
+@font-face {
+  font-family: titulo;
+  src: url(./fuentes/Ankh\ Sanctuary.otf);
+}
+
+@font-face {
+  font-family: menu;
+  src: url(./fuentes/Cobes.otf);
+}
+
+@font-face {
+  font-family: titulos;
+  src: url(./fuentes/RetroRaceDemoRegular.ttf);
+}
+
+#menu div {
+  font-size: 15pX;
+}
+
+header {
+  width: 100%;
+  position: relative;
+}
+
+nav ol {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  list-style: none;
+}
+
+nav ol li {
+  font-size: 20px;
+  margin: 0 .75rem;
+}
+
+nav ol li a {
+  display: block;
+  padding: 20px;
+  color: rgb(252, 252, 252);
+  text-decoration: none;
+  font-family: menu;
+}
+
+nav ol li:hover {
+  background: #eca023;
+}
+
+#imagen {
+  background-image: url(./imagenes/persona-5-button-2021-1640029221968.jpg);
+  background-size: 100% 100%;
+  height: 200px;
+  width: 200px;
+}
+
+#imagen2 {
+  background-image: url(./imagenes/metro-bundle-2022-800x480.jpg);
+  background-size: 100% 100%;
+  height: 200px;
+  width: 300px;
+}
+
+#imagen3 {
+  background-image: url(./imagenes/2546.jpg);
+  background-size: 100% 100%;
+  height: 200px;
+  width: 300px;
+}
+
+#imagen4 {
+  background-image: url(./imagenes/man\ eater.jpg);
+  background-size: 100% 100%;
+  height: 200px;
+  width: 230px;
+}
+
+#imagent2 {
+  background-image: url(./imagenes/Saints-Row-Main-Title-Art-900x900.jpg);
+  background-size: 100% 100%;
+  height: 200px;
+  width: 200px;
+}
+
+#imagent3 {
+  background-image: url(./imagenes/dead-island-2-ps4_345773_pn2.jpg);
+  background-size: 100% 100%;
+  height: 200px;
+  width: 300px;
+}
+
+#imagent4 {
+  background-image: url(./imagenes/descarga.jpeg);
+  background-size: 100% 100%;
+  height: 200px;
+  width: 200px;
+}
+
+table tr {
+  color: rgb(255, 255, 255);
+  font-family: titulos;
+  font-size: 30px;
+}
+
+#derecha {
+  text-align: right;
+}

@@ -1,0 +1,101 @@
+.fondo {
+    background-color: #333;
+    color: rgb(230, 230, 243);
+}
+
+@font-face {
+    font-family: titulo;
+    src: url(./fuentes/Ankh\ Sanctuary.otf);
+}
+
+@font-face {
+    font-family: volver;
+    src: url(./fuentes/Cyber\ gloom.ttf);
+}
+
+#inicio {
+    text-decoration: none;
+    color: rgb(223, 220, 220);
+    font-size: 25px;
+    position: absolute;
+    top: 92%;
+    left: 93%;
+    font-family: volver;
+}
+
+#explicacion {
+    text-align: center;
+    font-size: 20px;
+}
+
+#titulo #headers {
+    position: absolute;
+    width: 99%;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 4%;
+    padding-top: 5%;
+}
+
+.logocontenido {
+    padding-top: 30px;
+}
+
+.logo {
+    position: absolute;
+    display: block;
+    max-width: 100%;
+}
+
+.fondocabecera {
+    min-height: 100px;
+}
+
+#imagencabecera {
+    max-width: 100%;
+    height: auto;
+}
+
+.flybox {
+    position: absolute;
+    width: 50%;
+    top: 25%;
+}
+
+.caja {
+    display: inline-block;
+    padding: 10px;
+    width: 23%;
+}
+
+.cajatransparente {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.cajainterior {
+    padding: 10px 50px;
+}
+
+.textocabeza {
+    border-left: 6px solid #dbdfeb;
+    padding-left: 6px;
+    margin: 5px 0 5px 6px;
+    font-family: titulo;
+    color: #dbdfeb;
+}
+
+.mayus {
+    text-transform: uppercase;
+}
+
+.textoexplicativo {
+    font-size: 19px;
+}
+
+ul li {
+    font-size: 18px;
+}

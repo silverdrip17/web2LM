@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cssformulariotrabajoprimeraeval.css">
+    <title>Formulario ofertas de trabajo</title>
+</head>
+
+<body>
+    <h1>Formulario Ofertas de Trabajo</h1>
+    <form>
+        <fieldset>
+            <label for="nombre" id="nombreper">Introduzca su nombre:</label> 
+            <input type="text" name="nombre" id="nombre" required><br><br>
+            <label for="correo" id="correoelectronico">Introduzca su correo electrónico:</label>
+            <input type="text" name="correo" id="correo" required><br><br>
+            <label for="telefono" id="numerotel">Número de teléfono:</label>
+            <input type="tel" name="telefono" id="telefono" maxlength="9" pattern="[0-9]{9}" required><br><br>
+            <label for="puestos" id="puestosdisponibles">Puesto en el que quiere trabajar:</label>
+            <select name="Puestos disponibles: " id="puestos">
+                <option disabled selected>Seleccione uno</option>
+                <option value="Prog">Programador</option>
+                <option value="Test">Tester de errores</option>
+                <option value="Diseñ">Diseñador</option>
+            </select><br><br>
+            <label for="archivo" id="adjuntararchivo">adjunte su curriculum:</label>
+            <input type="file" name="curriculum" id="archivo" required><br> <br>
+        </fieldset>
+        <input type="submit" value="Enviar" id="enviar">
+        <input type="reset" value="Borrar" id="borrar">
+    </form>
+    <footer><div><a href="index.html" id="inicio">Volver al inicio</a></div></footer>
+</body>
+
+</html>

@@ -1,0 +1,61 @@
+h1{
+    text-align: center;
+    font-family: titulo;
+    color: goldenrod;
+}
+body{
+    background-image: url(./imagenes/formulariofondo.jpg);
+     background-repeat: no-repeat;
+     background-size:100% ;
+     color: white;
+}
+#inicio{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+   position: absolute;
+   top: 92%;
+   left: 93%;
+   font-family: volver;
+}
+div{
+    border-color: black;
+}
+#nombre{
+    height: 40px;
+    width: 88%;
+    
+}
+#correo{
+    height: 40px;
+    width: 85%;
+}
+#telefono{
+    height: 40px;
+    width: 89%;
+}
+@font-face {
+    font-family:titulo;
+    src: url(./fuentes/Ankh\ Sanctuary.otf);
+}
+@font-face {
+    font-family:volver;
+    src: url(./fuentes/Cyber\ gloom.ttf);
+}
+form{
+     align-items: center;
+     justify-content: center;
+     display: flex;
+}
+fieldset{
+    background-color: rgba(12, 85, 122, 0.371);
+}
+#enviar{
+    position: absolute;
+    top: 58%;
+}
+#borrar{
+    position: absolute;
+    top: 58%;
+    left: 52%;
+}
